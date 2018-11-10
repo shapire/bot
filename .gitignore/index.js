@@ -9,7 +9,8 @@ bot.on('ready', function () {
     console.log("Je suis connecté !")
     }) 
 
-
+ bot.login(process.env.TOKEN);
+           
     bot.on('ready', function () {
         bot.user.setPresence({game:{name: 'Paroxysme',type: 0}})
 
@@ -113,4 +114,4 @@ bot.on('message',function (message)  {
             }) 
             
                         
-        bot.login(process.env.TOKEN)
+
