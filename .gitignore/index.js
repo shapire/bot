@@ -12,7 +12,7 @@ bot.on('ready', function () {
  bot.login(process.env.TOKEN);
            
     bot.on('ready', function () {
-        bot.user.setPresence({game:{name: 'Paroxysme',type: 0}})
+        bot.user.setPresence({game:{name: 'I.A.D.C.H',type: 0}})
 
         console.log("Je suis connecté !")
         }) 
@@ -21,7 +21,7 @@ bot.on('ready', function () {
 
         bot.on('guildMemberAdd', function (member) {
             member.createDM().then(function(channels){
-                return channels.send('Bienvenue sur le serveur Hysteria Acess je me présente je suis Chloé, je suis lopératrice du serveur, est de vos Futur mission dans lentreprise Paroxysme'+ member.displayName)
+                return channels.send('Bienvenue sur le serveur Hybride je me présente je suis Grille Serveur'+ member.displayName)
 
             })
          })
@@ -29,11 +29,11 @@ bot.on('ready', function () {
             const channel = member.guild.channels.find('name', 'information');
           
             if (!channel) return;
-            channel.send(`Bienvenue sur le serveur Hysteria Acess je me présente je suis Chloé, je suis lopératrice du serveur, est de vos Futur mission dans lentreprise Paroxysme ${member}`);
+            channel.send(`Bienvenue sur le serveur Hybride je me présente je suis Grille Serveur ${member}`);
             
         });
 bot.on('guildMemberRemove', member=>{
-    member.guild.channels.find('name','information').send(`Paroxysme vous  dit au revoir et j'espère a bientot dans le Pazolite !${member}`)
+    member.guild.channels.find('name','information').send(` Bye Bye~!${member}`)
 })
 
 
@@ -41,14 +41,14 @@ bot.on('guildMemberRemove', member=>{
 
         
                 bot.on('message',function (message)  {
-                    if (message.content == '!ma waifu') {
-                    message.reply('cest moi!')
+                    if (message.content == '!coucou') {
+                    message.reply('Bijour')
                     }
                     })  
 
                     bot.on('message',function (message)  {
                         if (message.content == '!épouse moi') {
-                        message.reply('mmmmh donne 500 euro a Paroxysme est  oui')
+                        message.reply('mmmmh donne 500 euro a Shapire est pourquoi pas')
                         }
                         }) 
                    
