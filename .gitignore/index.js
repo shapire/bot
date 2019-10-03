@@ -96,6 +96,17 @@ bot.on('message',function (message)  {
                                             message.reply(Math.floor(Math.random()*4 + 1))
                                             }
                                             }) 
+                                            bot.on('message',function (message)  {
+                                            if (message.content == '!1d8') {
+                                            message.reply(Math.floor(Math.random()*4 + 1))
+                                            }
+                                            }) 
+
+
+
+
+
+
 // fiche joueur 
 bot.on('message',function (message)  {
     if (message.content == '!fiche joueur') {
