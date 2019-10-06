@@ -39,29 +39,14 @@ bot.on('guildMemberRemove', member=>{
 
 // message divers avec commandes
 
-        
-                bot.on('message',function (message)  {
-                    if (message.content == '!coucou') {
-                    message.reply('Bijour')
-                    }
-                    })  
-
-                    bot.on('message',function (message)  {
-                        if (message.content == '!épouse moi') {
-                        message.reply('mmmmh donne 500 euro a Shapire est pourquoi pas')
-                        }
-                        }) 
-                   
-bot.on('message',function (message)  {
-                        if (message.content == '!tes choupie') {
-                        message.reply('mer mer merci ba ba baka ^/////^')
-                        }
-                        }) 
-                        bot.on('message',function (message)  {
-                            if (message.content == '!je taime~') {
-                            message.reply(' moi aussiii~~~~')
-                            }
-                            }) 
+        bot.on('message' ,function(message){
+    if(message.content.charAt(0) == prefix) message.reply(reponse.get(message.content))
+}) 
+var reponse = new Map
+reponse.set('!coucou','bijour');
+reponse.set('!épouse moi','mmmh donne 500 euro a shapire est pourquoi pas');
+reponse.set('!tes choupie','mer mer mer merci ba ba baka ^////^');
+reponse.set('!je taime~','moi aussiiii~~~~');
                 
                         // lanceur de dé 
 
