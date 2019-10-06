@@ -40,7 +40,7 @@ bot.on('guildMemberRemove', member=>{
 // message divers avec commandes
 
         bot.on('message' ,function(message){
-    if(message.content.charAt(0) == prefix) message.reply(reponse.get(message.content))
+       if(reponse.has(message.content)) message.reply(reponse.get(message.content))
 }) 
 var reponse = new Map
 reponse.set('!coucou','bijour');
