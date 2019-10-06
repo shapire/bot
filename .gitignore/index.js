@@ -93,12 +93,12 @@ bot.on('message',function (message)  {
                                             }) 
                                             bot.on('message',function (message)  {
                                             if (message.content == '!1d2') {
-                                            message.reply(Math.floor(Math.random()*4 + 1))
+                                            message.reply(Math.floor(Math.random()*2 + 1))
                                             }
                                             }) 
                                             bot.on('message',function (message)  {
                                             if (message.content == '!1d8') {
-                                            message.reply(Math.floor(Math.random()*4 + 1))
+                                            message.reply(Math.floor(Math.random()*8 + 1))
                                             }
                                             }) 
 
