@@ -1,8 +1,8 @@
-NDUxNDYwNzUwNjExOTcyMTA2.DnaUCw.wwxsjCwJT-mrMTI8PTJrD9J8xOk 2B 
+bot.login(process.env.TOKEN);
 
-Chloé : NTEwNTQxMzg1OTkzMDI3NTg0.Dsd6Nw.wDCdDOPOUqcw1HsaCJoRgWeb_Uo 
+ChloÃ© :  bot.login(process.env.TOKEN);
 
-Bienvenue sur le serveur Hysteria Acess je me présente je suis Chloé, je suis lopératrice du serveur, est de vos Futur mission dans lentreprise Paroxysme
+Bienvenue sur le serveur Hysteria Acess je me prÃ©sente je suis ChloÃ©, je suis lopÃ©ratrice du serveur, est de vos Futur mission dans lentreprise Paroxysme
 
 
  bot.on('message', msg =>{
