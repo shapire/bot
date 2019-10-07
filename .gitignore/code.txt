@@ -1,0 +1,15 @@
+NDUxNDYwNzUwNjExOTcyMTA2.DnaUCw.wwxsjCwJT-mrMTI8PTJrD9J8xOk 2B 
+
+Chloé : NTEwNTQxMzg1OTkzMDI3NTg0.Dsd6Nw.wDCdDOPOUqcw1HsaCJoRgWeb_Uo 
+
+Bienvenue sur le serveur Hysteria Acess je me présente je suis Chloé, je suis lopératrice du serveur, est de vos Futur mission dans lentreprise Paroxysme
+
+
+ bot.on('message', msg =>{
+        if(msg.author.bot)return
+        let
+        if(content.startWith(prefix +"random")){
+            msg.send(Math.floor(Math.random()* 10+ +1))
+        }
+    })
+
