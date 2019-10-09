@@ -8,7 +8,7 @@ reponse.set('!tes choupie','mer mer merci ba ba baka ^/////^');
 reponse.set('!je taime~',' moi aussiii~~~~');
 
 var fiche = new Map;
-fiche.set('Maliwan','https://drive.google.com/open?id=1acfDlLpjHvVF7yZXMfKNBiDviQb6Tfw7' );
+fiche.set('!fiche Maliwan','https://drive.google.com/open?id=1acfDlLpjHvVF7yZXMfKNBiDviQb6Tfw7' );
 
 var commandePrenium = new Map;
 commandePrenium.set('!gainxp','');  //doit etre utiliser en fesant !gain[xp or gold] [Perso (avec la premiere lettre majuscule)] [Montant]
